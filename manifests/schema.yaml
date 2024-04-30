@@ -22,5 +22,6 @@ spec:
         email2 varchar(255) unique not null,
         memo varchar(255) unique not null,
         memo2 varchar(255) unique not null,
+        memo3 varchar(255) unique not null,
         primary key (id)
       );
