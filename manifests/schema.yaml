@@ -19,5 +19,6 @@ spec:
         id int not null auto_increment,
         name varchar(255) not null,
         email varchar(255) unique not null,
+        email2 varchar(255) unique not null,
         primary key (id)
       );
