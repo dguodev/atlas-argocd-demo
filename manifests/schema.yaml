@@ -20,8 +20,10 @@ spec:
         name varchar(255) not null,
         email varchar(255) unique not null,
         email2 varchar(255) unique not null,
+        email3 varchar(255) unique not null,
         memo varchar(255) unique not null,
         memo2 varchar(255) unique not null,
         memo3 varchar(255) unique not null,
+        memo4 varchar(255) unique not null,
         primary key (id)
       );
